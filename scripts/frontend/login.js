@@ -31,7 +31,7 @@ function sesion(email, pass){
         success: function(res){
             if(res.email !== undefined){
                 mensaje('blue', res.nombre + ' a iniciado correctamente');
-                window.location.href = 'sesion/'
+                window.location.href = 'sesion/body.php'
             } else{
                 mensaje('red', 'Correo o contraseña incorrecto');
             }

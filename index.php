@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="./scripts/modules/jquery.min.js"></script>
+    <script src="./bootstrap/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/login.css">
     <title>MyApp</title>
@@ -29,6 +29,6 @@
         </div>     
     </div>
 
-<script src="./scripts/myApp.js"></script>
+<script src="./scripts/frontend/login.js"></script>
 </body>
 </html>
