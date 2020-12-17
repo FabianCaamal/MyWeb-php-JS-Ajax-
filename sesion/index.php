@@ -6,7 +6,7 @@ error_reporting(0);
 $user = $_SESSION['nombre'];
 
 if($user == null || $user == ''){
-    header('Location: http://localhost/practics/web/');
+    header('Location: http://localhost/web/');
 }
 
 $userId = $_SESSION['id'];

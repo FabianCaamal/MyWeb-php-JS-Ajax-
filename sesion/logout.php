@@ -3,6 +3,6 @@
 session_start();
 session_destroy();
 
-header('Location: http://localhost/practics/web/');
+header('Location: http://localhost/web/');
 
 ?>

@@ -25,7 +25,7 @@ form.addEventListener('submit', function(e){
 function sesion(email, pass){
     $.ajax({
         method: 'POST',
-        url: 'http://localhost/practics/web/scripts/backend/login.php',
+        url: 'http://localhost/web/scripts/backend/login.php',
         dataType: 'json',
         data: {email: email, pass: pass},
         success: function(res){
