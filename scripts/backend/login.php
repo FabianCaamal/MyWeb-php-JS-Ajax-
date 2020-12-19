@@ -4,7 +4,6 @@ include_once('conexion.php');
 $email = $_POST['email'];
 $pass = md5($_POST['pass']);
 
-$json = [];
 $sql = $conexion->query("SELECT id, nombre, email FROM users WHERE email = '$email' && password = '$pass'");
 
 if($sql->num_rows > 0){

@@ -11,8 +11,12 @@
     
     <div class="card">
         <div class="formContent">
-            <h1>Iniciar sesion</h1>
+            <h2 class="active"> Sign In </h2>
+            <a href="./singup.php" class="underlineHover">Sign up</a>
 
+            <div class="fadeIn first">
+                <img src="./public/img/shopping.png" width="100px" alt="User Icon" />
+            </div>
             <form id="form">
                 <input type="text" name="email" id="email" placeholder="email" required='true'>
                 <input type="password" name="pass" id="pass" placeholder="pass">

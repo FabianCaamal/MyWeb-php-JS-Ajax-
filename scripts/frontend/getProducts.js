@@ -22,7 +22,9 @@ function getProducts(){
 }
 
 function agregar(btn){
-    console.log('Agregar producto con el id:', btn)
+    contar++;
+    console.log('Agregar producto con el id:', btn);
+    $('#count').text(contar)
 }
 
 getProducts();
